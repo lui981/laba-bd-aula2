@@ -1,1 +1,1 @@
-# laba-bd-aula2
+# PraticaSql
