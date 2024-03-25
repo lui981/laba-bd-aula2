@@ -12,7 +12,7 @@ Ao acessar a seção "SQL Intro" no W3Schools, encontrei uma variedade de recurs
 
 Realizando as Consultas:
 
-Para garantir que eu estava compreendendo os conceitos adequadamente, utilizei o recurso "Try it Yourself" disponibilizado em cada tópico. Copiei e colei os exemplos de consulta em um ambiente de teste fornecido pela plataforma e executei as consultas para observar os resultados.
+Para garantir que eu estava compreendendo os conceitos adequadamente, utilizei o recurso "Try it Yourself" disponibilizado em cada tópico. Copiei e colei os exemplos de consulta em um ambiente de teste fornecido pela plataforma e executei as consultas para observar os resultados , Siga abaixo alguns dos testes que fiz. 
 
 Documentando o Processo:
 
@@ -81,3 +81,8 @@ SELECT * FROM usuarios LIMIT 5;
 
 - A cláusula `LIMIT` é usada para limitar o número de registros retornados pela consulta.
 - `5` é o número de registros que queremos recuperar.
+
+<br>
+
+### **Atividade 2**
+...
