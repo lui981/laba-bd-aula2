@@ -85,4 +85,41 @@ SELECT * FROM usuarios LIMIT 5;
 <br>
 
 ### **Atividade 2**
-...
+
+Passo 1: Acessei o MySQL e verifiquei quais bancos de dados existentes
+Em seguida, digitei a senha que foi  solicitado. Depois de entrar no MySQL, digitei o comando abaixo para verificar quais bancos de dados existem:
+```sql
+SHOW DATABASES;
+```
+Passo 2: Criar um novo banco de dados
+Criei um novo banco de dados, utilizando o comando `CREATE DATABASE` .
+```sql
+CREATE DATABASE loja;
+```
+Passo 3: Criar tabelas
+Depois de criar o banco de dados, criei  as tabelas dentro dele.  adicionoi pelo menos três tabelas como solicitado.
+```sql
+USE loja
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    email VARCHAR(80),
+    telefone VARCHAR(20)
+);
+```
+
+Repeti o  processo para criar outras tabelas conforme necessário 
+
+**Passo 4: Inserir registros**
+
+eu inseri alguns registros em cada tabela que criei usando o comando abaixo 
+
+```sql
+INSERT INTO usuarios (nome, email) VALUES
+('João', 'joao@gmail.com', '89 981276778'),
+('Maria', 'maria@gamil.com', '89 981638389'),
+('Pedro', 'pedro@gmail.com', '86 981268038'),
+('Juliana, 'juliana@gmail.com', '86 981543298'),
+('Carlos', 'carlos@gmail.com', '86 981652340'),
+('Mariana', 'mariana@gmail.com', '89 98111099');
+```
