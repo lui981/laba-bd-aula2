@@ -84,7 +84,7 @@ SELECT * FROM usuarios LIMIT 5;
 
 <br>
 
-### **Atividade 2**
+### **Atividade 2 - 25/03/2024**
 
 Passo 1: Acessei o MySQL e verifiquei quais bancos de dados existentes
 Em seguida, digitei a senha que foi  solicitado. Depois de entrar no MySQL, digitei o comando abaixo para verificar quais bancos de dados existem:
@@ -97,7 +97,7 @@ Criei um novo banco de dados, utilizando o comando `CREATE DATABASE` .
 CREATE DATABASE loja;
 ```
 Passo 3: Criar tabelas
-Depois de criar o banco de dados, criei  as tabelas dentro dele.  adicionoi pelo menos três tabelas como solicitado.
+Depois de criar o banco de dados, criei  as tabelas dentro dele.  adicionei  pelo menos três tabelas como solicitado.
 ```sql
 USE loja
 CREATE TABLE usuarios (
@@ -123,3 +123,8 @@ INSERT INTO usuarios (nome, email) VALUES
 ('Carlos', 'carlos@gmail.com', '86 981652340'),
 ('Mariana', 'mariana@gmail.com', '89 98111099');
 ```
+<br>
+
+### **Atividade 3 **
+
+
