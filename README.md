@@ -119,7 +119,7 @@ INSERT INTO usuarios (nome, email) VALUES
 ('João', 'joao@gmail.com', '89 981276778'),
 ('Maria', 'maria@gamil.com', '89 981638389'),
 ('Pedro', 'pedro@gmail.com', '86 981268038'),
-('Juliana, 'juliana@gmail.com', '86 981543298'),
+('Juliana', 'juliana@gmail.com', '86 981543298'),
 ('Carlos', 'carlos@gmail.com', '86 981652340'),
 ('Mariana', 'mariana@gmail.com', '89 98111099');
 ```
